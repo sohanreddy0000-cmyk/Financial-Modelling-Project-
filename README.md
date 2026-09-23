@@ -52,16 +52,13 @@ financial-extractor/
 └── README.md                     # Project documentation
 
 
-'''
-🛠️ Tech Stack & Requirements
-Language: Python 3.9+
+## 🛠️ Tech Stack & Requirements
 
-AI Engine: google-genai (Google Gemini 3.6 / 3.7 / 3.8 Flash)
+* **Language**: Python 3.9+
+* **AI Engine**: `google-genai` (Google Gemini 3.6 / 3.7 / 3.8 Flash)
+* **Data Processing**: `pandas`, `openpyxl`
+* **PDF Handling**: Google Gemini Files API
 
-Data Processing: pandas, openpyxl
-
-PDF Handling: Google Gemini Files API
-'''
 ⚡ Quick Start & Installation
 1. Clone the Repository
 
