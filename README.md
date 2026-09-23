@@ -29,7 +29,7 @@ Driven by the official `google-genai` SDK and Gemini Flash models, this tool han
 
 ## 📁 Repository Structure
 
-```text
+```
 financial-extractor/
 ├── config/
 │   ├── __init__.py
@@ -51,7 +51,7 @@ financial-extractor/
 ├── LICENSE                       # MIT Open Source License
 └── README.md                     # Project documentation
 
-
+'''
 ## 🛠️ Tech Stack & Requirements
 
 * **Language**: Python 3.9+
@@ -59,27 +59,29 @@ financial-extractor/
 * **Data Processing**: `pandas`, `openpyxl`
 * **PDF Handling**: Google Gemini Files API
 
-⚡ Quick Start & Installation
-1. Clone the Repository
+## ⚡ Quick Start & Installation
+
+### 1. Clone the Repository
 
 git clone https://github.com/sohanreddy0000-cmyk/Financial-Modelling-Project-.git
 cd Financial-Modelling-Project-
 
-2. Install Dependencies
+### 2. Install Dependencies
 
 pip install -r requirements.txt
 
-3. Set Up Configuration
-Set your Gemini API key as an environment variable or update config/settings.py:
+### 3. Set Up Configuration
 
+Set your Gemini API key as an environment variable or update config/settings.py:
 export GEMINI_API_KEY="your_google_gemini_api_key_here"
 
-4. Run the Extractor
-Place your target company annual report PDFs in the input directory and execute:
+### 4. Run the Extractor
 
+Place your target company annual report PDFs in the input directory and execute:
 python main.py
 
-📊 Output Deliverables
+## 📊 Output Deliverables
+
 The extractor generates four structured output files:
 
 1. Company_Financial_Statements_Master.xlsx: Master Excel workbook containing:
@@ -93,7 +95,8 @@ The extractor generates four structured output files:
 5. Company_Audit_Log.txt
 
 
-📜 License
+## 📜 License
+
 Distributed under the MIT License. See LICENSE for more information.
 
 
