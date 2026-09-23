@@ -1,0 +1,14 @@
+# Configuration
+config/settings.py
+.env
+
+# Data
+*.pdf
+*.xlsx
+*.csv
+*.txt
+
+# Python
+__pycache__/
+*.pyc
+.vscode/
