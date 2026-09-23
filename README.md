@@ -51,7 +51,7 @@ financial-extractor/
 ├── LICENSE                       # MIT Open Source License
 └── README.md                     # Project documentation
 
-'''
+```
 ## 🛠️ Tech Stack & Requirements
 
 * **Language**: Python 3.9+
