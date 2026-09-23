@@ -61,25 +61,27 @@ financial-extractor/
 
 ## ⚡ Quick Start & Installation
 
-### 1. Clone the Repository
-
+#### 1. Clone the Repository
+```
 git clone https://github.com/sohanreddy0000-cmyk/Financial-Modelling-Project-.git
 cd Financial-Modelling-Project-
-
-### 2. Install Dependencies
-
+```
+#### 2. Install Dependencies
+```
 pip install -r requirements.txt
-
-### 3. Set Up Configuration
+```
+#### 3. Set Up Configuration
 
 Set your Gemini API key as an environment variable or update config/settings.py:
+```
 export GEMINI_API_KEY="your_google_gemini_api_key_here"
-
-### 4. Run the Extractor
+```
+#### 4. Run the Extractor
 
 Place your target company annual report PDFs in the input directory and execute:
+```
 python main.py
-
+```
 ## 📊 Output Deliverables
 
 The extractor generates four structured output files:
