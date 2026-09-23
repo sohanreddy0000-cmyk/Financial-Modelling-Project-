@@ -1,14 +1,53 @@
-# Configuration
-config/settings.py
-.env
-
-# Data
-*.pdf
-*.xlsx
-*.csv
-*.txt
-
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment variables & local configuration
+.env
+.env.local
+.env.*
+*.env
+config/local_settings.py
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Project Data Directories (Ignore PDF inputs and generated output files)
+data/input_pdfs/*.pdf
+data/output/*.json
+data/output/*
+
+# Keep directory structure intact on GitHub via .gitkeep
+!data/input_pdfs/.gitkeep
+!data/output/.gitkeep
+
+# IDEs & Code Editors
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build and Packaging
+build/
+dist/
+*.egg-info/
